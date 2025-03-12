@@ -55,5 +55,5 @@ class ProductoController extends Controller
 
         $producto->delete();
         return response()->json(['message' => 'Producto eliminado']);
-    }
+    } 
 }
